@@ -56,16 +56,16 @@ layers:
   - '0'
   - F12
   - +
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - {t: '!', h: LEFT SHIFT}
+  - {t: '@', h: Ctrl}
+  - {t: '#', h: LEFT ALT}
+  - {t: $, h: LEFT GUI}
   - '%'
   - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - {t: '&', h: RIGHT GUI}
+  - {t: '*', h: RIGHT ALT}
+  - {t: (, h: Ctrl}
+  - {t: ), h: RIGHT SHIFT}
   - '-'
   - '='
   - F1

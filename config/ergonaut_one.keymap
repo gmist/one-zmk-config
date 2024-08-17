@@ -43,20 +43,6 @@
             quick-tap-ms = <140>;
             flavor = "tap-preferred";
         };
-
-        td_parenthesis: td_parenthesis {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_PARENTHESIS";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-        };
-
-        td_bkt: td_bkt {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_BKT";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
-        };
     };
 
     keymap {
@@ -73,10 +59,10 @@
 
         lower_layer {
             bindings = <
-&mt LGUI F1  &kp N1    &kp N2  &kp NUMBER_3  &kp N4    &kp N5     &kp NUMBER_6  &kp N7    &kp N8    &kp N9    &kp N0    &kp F12
-&kp PLUS     &kp EXCL  &kp AT  &kp HASH      &kp DLLR  &kp PRCNT  &kp CARET     &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp MINUS
-&kp EQUAL    &kp F1    &kp F2  &kp F3        &kp F4    &kp F5     &kp F6        &kp F7    &kp F8    &kp F9    &kp F10   &kp F11
-                               &trans        &trans    &trans     &trans        &trans    &trans
+&mt LGUI F1  &kp N1                 &kp N2          &kp NUMBER_3         &kp N4               &kp N5     &kp NUMBER_6  &kp N7                &kp N8                &kp N9            &kp N0                  &kp F12
+&kp PLUS     &mt_l LEFT_SHIFT EXCL  &mt_l LCTRL AT  &mt_l LEFT_ALT HASH  &mt_l LEFT_GUI DLLR  &kp PRCNT  &kp CARET     &mt_r RIGHT_GUI AMPS  &mt_r RIGHT_ALT STAR  &mt_r RCTRL LPAR  &mt_r RIGHT_SHIFT RPAR  &kp MINUS
+&kp EQUAL    &kp F1                 &kp F2          &kp F3               &kp F4               &kp F5     &kp F6        &kp F7                &kp F8                &kp F9            &kp F10                 &kp F11
+                                                    &trans               &trans               &trans     &trans        &trans                &trans
             >;
         };
 
