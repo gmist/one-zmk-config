@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - '`'
+  - ↹
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: Ctrl}
   - {t: D, h: LEFT ALT}
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: RIGHT SHIFT}
   - ''''
-  - '-'
+  - '`'
   - Z
   - X
   - C
@@ -169,5 +169,48 @@ layers:
   - ''
   - {type: held}
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  navi:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Shift
+  - Ctrl
+  - LEFT ALT
+  - LEFT GUI
+  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - ↑
+  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Home
+  - PAGE DOWN
+  - PAGE UP
+  - End
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
