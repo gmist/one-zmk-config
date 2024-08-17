@@ -86,42 +86,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: KP NUM, h: Gui}
+  - KP EQUAL
   - KP SLASH
   - KP 7
   - KP 8
   - KP 9
-  - KP MINUS
+  - KP CLEAR
+  - MUTE
+  - Vol Down
   - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
+  - PLAY PAUSE
   - SLCK
   - CLCK
-  - {t: '=', h: Ctrl}
+  - KP PLUS
   - KP MULTIPLY
   - KP 4
   - KP 5
   - KP 6
-  - KP PLUS
-  - MUTE
+  - KP MINUS
   - ←
+  - ↓
   - ↑
   - →
   - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
+  - APP
+  - KP DOT
   - KP 0
   - KP 1
   - KP 2
   - KP 3
-  - KP DOT
-  - Vol Down
+  - KP ENTER
+  - Home
+  - PAGE DOWN
+  - PAGE UP
   - End
-  - ↓
-  - Page Down
   - Pause Break
-  - Alt
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
