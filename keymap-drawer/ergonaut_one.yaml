@@ -36,11 +36,11 @@ layers:
   - .
   - /
   - \
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
+  - {t: BACKSPACE, h: raise}
+  - {t: ␣, h: navi}
   - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
+  - {t: ENTER, h: lower}
+  - {t: ␣, h: navi}
   - {t: ⌦, h: raise}
   lower:
   - {t: F1, h: Gui}
@@ -166,9 +166,9 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   navi:
@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
