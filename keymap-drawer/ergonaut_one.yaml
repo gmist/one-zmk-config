@@ -36,9 +36,9 @@ layers:
   - .
   - /
   - \
-  - {t: BACKSPACE, h: raise}
+  - {t: Esc, h: raise}
   - {t: ␣, h: navi}
-  - {t: Esc, h: lower}
+  - {t: ⌫, h: lower}
   - {t: ENTER, h: lower}
   - {t: ␣, h: navi}
   - {t: ⌦, h: raise}
