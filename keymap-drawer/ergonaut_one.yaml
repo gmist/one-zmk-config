@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - ']'
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: RIGHT SHIFT}
   - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - '-'
   - Z
   - X
   - C
