@@ -200,7 +200,7 @@ layers:
   - Gui+ X
   - Gui+ X
   - Gui+ C
-  - {t: ▽, type: trans}
+  - Gui+ V
   - {t: ▽, type: trans}
   - Home
   - PAGE DOWN
